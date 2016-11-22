@@ -80,12 +80,12 @@ table {
 
 .lazard header .shuffle {
     padding: 0 0 0 25px;
-    background: url("/static/media/shuffle.png") no-repeat 0;
+    background: url("static/media/shuffle.png") no-repeat 0;
 }
 
 .lazard header .search {
     padding: 0 25px 0 0;
-    background: url("/static/media/search.png") no-repeat 100% 0;
+    background: url("static/media/search.png") no-repeat 100% 0;
 }
 
 .lazard header h1 {
@@ -125,26 +125,26 @@ table {
 }
 
 .lazard main figure .f1 {
-    background: url('/static/media/1.jpg') no-repeat center;
+    background: url('static/media/1.jpg') no-repeat center;
 }
 .lazard main figure .f2 {
-    background: url('/static/media/2.jpg') no-repeat center;
+    background: url('static/media/2.jpg') no-repeat center;
 }
 .lazard main figure .f3 {
-    background: url('/static/media/3.jpg') no-repeat center;
+    background: url('static/media/3.jpg') no-repeat center;
 }
 .lazard main figure .f4 {
-    background: url('/static/media/4.jpg') no-repeat center;
+    background: url('static/media/4.jpg') no-repeat center;
 }
 .lazard main figure .f5 {
-    background: url('/static/media/5.jpg') no-repeat center;
+    background: url('static/media/5.jpg') no-repeat center;
     background-position: center 83%;
 }
 .lazard main figure .f6 {
-    background: url('/static/media/6.jpg') no-repeat center;
+    background: url('static/media/6.jpg') no-repeat center;
 }
 .lazard main .f7 {
-    background: #f7f8f9 url('/static/media/7.png') no-repeat center;
+    background: #f7f8f9 url('static/media/7.png') no-repeat center;
 }
 
 .lazard main .f7 figcaption {
@@ -170,11 +170,11 @@ table {
 }
 
 .lazard main .f7:hover {
-    background: url('/static/media/7.png') no-repeat center;
+    background: url('static/media/7.png') no-repeat center;
     background-color: #212121;
 }
 .lazard main figure .f8 {
-    background: url('/static/media/8.jpg') no-repeat center;
+    background: url('static/media/8.jpg') no-repeat center;
 }
 
 .lazard main .large {
@@ -218,23 +218,23 @@ table {
 
 .lazard main figure figcaption div .date {
     padding: 0 0 0 21px;
-    background: url("/static/media/clock.png") no-repeat 0 center;
+    background: url("static/media/clock.png") no-repeat 0 center;
 }
 
 .lazard main figure figcaption div .views {
     padding: 0 0 0 21px;
-    background: url("/static/media/view.png") no-repeat 0 center;
+    background: url("static/media/view.png") no-repeat 0 center;
     line-height: 13px;
 }
 
 .lazard main .yellow figcaption div .date {
     padding: 0 0 0 21px;
-    background: url("/static/media/clockw.png") no-repeat 0 center;
+    background: url("static/media/clockw.png") no-repeat 0 center;
 }
 
 .lazard main .yellow figcaption div .views {
     padding: 0 0 0 21px;
-    background: url("/static/media/vieww.png") no-repeat 0 center;
+    background: url("static/media/vieww.png") no-repeat 0 center;
     line-height: 13px;
 }
 
