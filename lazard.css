@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i|Montserrat:400,700|Open+Sans:400,600,700");
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.lazard {
+    max-width: 1280px;
+    margin: 130px auto;
+    padding: 0 80px;
+}
+
+.lazard header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.lazard header a {
+    color: #292929;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.lazard header a:hover {
+    text-decoration: underline;
+}
+
+.lazard header .shuffle {
+    padding: 0 0 0 25px;
+    background: url("static/media/shuffle.png") no-repeat 0;
+}
+
+.lazard header .search {
+    padding: 0 25px 0 0;
+    background: url("static/media/search.png") no-repeat 100% 0;
+}
+
+.lazard header h1 {
+    color: #292929;
+    font-family: Arvo, serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.lazard main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 74px -10px 0;
+}
+
+.lazard main figure {
+    width: 360px;
+    min-height: 440px;
+    margin: 10px;
+    background: #f7f8f9;
+    color: #212121;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.lazard main figure:hover {
+    background: #292929;
+    color: #fff;
+}
+
+
+.lazard main figure>div {
+    min-height: 240px;
+}
+
+.lazard main figure .f1 {
+    background: url('static/media/1.jpg') no-repeat center;
+}
+.lazard main figure .f2 {
+    background: url('static/media/2.jpg') no-repeat center;
+}
+.lazard main figure .f3 {
+    background: url('static/media/3.jpg') no-repeat center;
+}
+.lazard main figure .f4 {
+    background: url('static/media/4.jpg') no-repeat center;
+}
+.lazard main figure .f5 {
+    background: url('static/media/5.jpg') no-repeat center;
+    background-position: center 83%;
+}
+.lazard main figure .f6 {
+    background: url('static/media/6.jpg') no-repeat center;
+}
+.lazard main .f7 {
+    background: #f7f8f9 url('static/media/7.png') no-repeat center;
+}
+
+.lazard main .f7 figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.lazard main .f7 h2 {
+    margin:  0 0 50px;
+    padding: 76px 55px 0;
+    font-size: 36px;
+    text-align: center;
+}
+
+.lazard main .f7 p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-style: italic;
+    text-align: right;
+}
+
+.lazard main .f7:hover {
+    background: url('static/media/7.png') no-repeat center;
+    background-color: #212121;
+}
+.lazard main figure .f8 {
+    background: url('static/media/8.jpg') no-repeat center;
+}
+
+.lazard main .large {
+    width: 739px;
+}
+
+.lazard main figure figcaption {
+    padding: 25px;
+}
+
+.lazard main figure figcaption h2 {
+    font-family: Arvo;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.lazard main figure figcaption p {
+    max-height: 40px;
+    margin: 25px 70px 0 0;
+    color: #9fa3a7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.lazard main figure figcaption div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0 0;
+}
+
+.lazard main figure figcaption div span {
+    color: #9fa3a7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.lazard main figure figcaption div .date {
+    padding: 0 0 0 21px;
+    background: url("static/media/clock.png") no-repeat 0 center;
+}
+
+.lazard main figure figcaption div .views {
+    padding: 0 0 0 21px;
+    background: url("static/media/view.png") no-repeat 0 center;
+    line-height: 13px;
+}
+
+.lazard main .yellow figcaption div .date {
+    padding: 0 0 0 21px;
+    background: url("static/media/clockw.png") no-repeat 0 center;
+}
+
+.lazard main .yellow figcaption div .views {
+    padding: 0 0 0 21px;
+    background: url("static/media/vieww.png") no-repeat 0 center;
+    line-height: 13px;
+}
+
+.lazard main .yellow {
+    background: #ffc80a;
+    color: #fff;
+}
+
+.lazard main .yellow figcaption p {
+    color: #fff;
+}
+
+.lazard main .yellow figcaption span {
+    color: #fff;
+}
+
+
