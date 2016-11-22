@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  margin: 100px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App h3 {
+  color: #949494;
+  font-size: 14px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.App>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.App section header {
+  display:  flex;
+  color: #aaa;
+  font-size: 10px;
+}
+
+.App .x1 {
+  width: 2vw;
+  height: 38px;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+}
+.App .x2 {
+  width: 4vw;
+  height: 38px; 
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+}
+.App .x3 {
+  width: 6vw;
+  height: 38px; 
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+}
+
+.App section main>div {
+  display: flex;
+}
+
+.App section main>div :first-child {
+  border-left: 2px solid #e4e4e4;
+}
+.App section main>div :last-child {
+  border-right: 2px solid #e4e4e4;
+}
+
+.App .cell{
+  background: #fff;
+}
+
+.App section header :first-child {
+  border-left: 2px solid #e4e4e4;
+}
+.App section header :last-child {
+  border-right: 2px solid #e4e4e4;
+}
+
+.App .selected {
+  background: #dbdbdb;
+}
+
+.App .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dbdbdb;
+  color: #8c8c8c;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.App .day {
+  background: #949494;
+  cursor: pointer;
+}
+
+.App .all {
+  background: #949494 url("/selected.png") no-repeat center;
+}
+
+.App section footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px 0;
+}
+
+.App button {
+  margin: 0 0 0 16px;
+  padding: 8px 20px;
+  background: #949494;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 1px 1px #d4d4d6;
+  font-family: 'Fira Sans', sans-serif;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background: #d4d4d6;
+  outline: 0;
+}
+
+.App button:focus {
+  outline: 0;
+}
